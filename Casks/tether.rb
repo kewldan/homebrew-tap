@@ -1,9 +1,9 @@
 cask "tether" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.0"
-  sha256 arm:   "fe50b01ebe7fd116466608c7bd0a9dd3987767fa5c0a46d7bd96aa513e2a0ce7",
-         intel: "6fb9b53df1c2896f086e9be1ce4690731c878c507076a10068b5fd315152b935"
+  version "0.1.1"
+  sha256 arm:   "8468496476596b50439ccc0f05d678b61d0e47b670728fb1c4094be99f74c92e",
+         intel: "511ab189bb9ce7843c60a303b4637e9a974c04cd1e4ebbce72f63b668125a9e1"
 
   url "https://github.com/kewldan/tether/releases/download/v#{version}/Tether_#{version}_#{arch}.dmg"
   name "Tether"
